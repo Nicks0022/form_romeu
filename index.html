@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="coontainer">
+        <div class="box">
+            <font color="blue">
+                
+                <h1 class="h1"><img src="33777.png" height="30px">    Hospital Nossa Senhora     <img src="33777.png"  height="30px"></h1>
+              </font>
+              <br><br>
+              <form id="formulario" autocomplete="off">
+                <fieldset>
+                  <legend class="font">Dados do Paciente</legend>
+                  <label >Nome: </label><input class="campo" name="opcao" type="text"><br><br>
+                  <label>Telefone: </label><input class="telefone" name="opcao" type="text" placeholder="(xx) xxxxx-xxxx"><br>
+                </fieldset>
+          
+                <fieldset style="width : 50%">
+                  <legend class="font1">Plano de Saúde</legend>
+                  <input type="radio" name="opcao" value="op1" class="input">Sus
+                  <input TYPE="radio" name="opcao" value="op1" class="input"> Particular
+                  <input TYPE="radio" name="opcao" value="op1" class="input"> Privado
+                </fieldset>
+                <div class="pagamento">
+                    <fieldset style="width: 93% ">
+                      <legend class="font">Pagamento</legend>
+                      <label>Valor total de serviços </label><input type="text"><br><br>
+                      <fieldset class="pag">
+                        <legend class="font">Forma de Pagamento</legend>
+                        <input TYPE="radio" name="opcao" value="op1"> á vista
+                        <input TYPE="radio" name="opcao" value="op1"> á prazo
+                      </fieldset><br>
+                      <label>Total á pagar: </label><input type="text"><br><br>
+                      <label>Cobrar do Governo / Plano de saúde<br><br>
+                        <input type="text">
+                    </fieldset> 
+                    <div class="servico">
+                    <fieldset>
+                        <legend class="font">Serviço</legend>
+                        <input type="checkbox" name="opcao" value="op1"> Consulta  <input class="campo_nome" type="text"><br><br>
+                        <input type="checkbox" name="opcao" value="op1"> Internação <input class="campo_nome" type="text"><br><br>
+                        <input type="checkbox" name="opcao" value="op1"> Exames Laboratoriais <input class="campo_nome" type="text">
+                      </fieldset>
+                    </div>
+                      <div class="opcoes">
+                      <fieldset class="font">
+                        <legend>Opções</legend>
+                        <button class="btn" onclick="limparForm();">Limpar</button>
+                        <button class="btn">Calcular</button>
+                        <button class="btn">Calculadora</button>
+                        <button class="btn">Encerrar</button>
+                      </fieldset>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
